@@ -195,7 +195,7 @@ activities.
 performed during the test phase and some performed during the training phase.
 All are included in  the tidy_data result.
 
-### Remaining variables (double)
+### Notes on remaining variables
 
 * All of the remaining variables are in the form
 mean.<original measurement name>
@@ -203,6 +203,140 @@ mean.<original measurement name>
 specific combination of subject and activity.
 * Since the original measurements were coerced to the range [-1:1] and the new
 variables are all means of that data they must also lie in that range.
+
+### mean.tbodyacc.mean.x
+* the mean of measurement tbodyacc.mean.x for the given activity and subject
+### mean.tbodyacc.mean.y
+* the mean of measurement tbodyacc.mean.y for the given activity and subject
+### mean.tbodyacc.mean.z
+* the mean of measurement tbodyacc.mean.z for the given activity and subject
+### mean.tbodyacc.std.x
+* the mean of measurement tbodyacc.std.x for the given activity and subject
+### mean.tbodyacc.std.y
+* the mean of measurement tbodyacc.std.y for the given activity and subject
+### mean.tbodyacc.std.z
+* the mean of measurement tbodyacc.std.z for the given activity and subject
+### mean.tgravityacc.mean.x
+* the mean of measurement tgravityacc.mean.x for the given activity and subject
+### mean.tgravityacc.mean.y
+* the mean of measurement tgravityacc.mean.y for the given activity and subject
+### mean.tgravityacc.mean.z
+* the mean of measurement tgravityacc.mean.z for the given activity and subject
+### mean.tgravityacc.std.x
+* the mean of measurement tgravityacc.std.x for the given activity and subject
+### mean.tgravityacc.std.y
+* the mean of measurement tgravityacc.std.y for the given activity and subject
+### mean.tgravityacc.std.z
+* the mean of measurement tgravityacc.std.z for the given activity and subject
+### mean.tbodyaccjerk.mean.x
+* the mean of measurement tbodyaccjerk.mean.x for the given activity and subject
+### mean.tbodyaccjerk.mean.y
+* the mean of measurement tbodyaccjerk.mean.y for the given activity and subject
+### mean.tbodyaccjerk.mean.z
+* the mean of measurement tbodyaccjerk.mean.z for the given activity and subject
+### mean.tbodyaccjerk.std.x
+* the mean of measurement tbodyaccjerk.std.x for the given activity and subject
+### mean.tbodyaccjerk.std.y
+* the mean of measurement tbodyaccjerk.std.y for the given activity and subject
+### mean.tbodyaccjerk.std.z
+* the mean of measurement tbodyaccjerk.std.z for the given activity and subject
+### mean.tbodygyro.mean.x
+* the mean of measurement tbodygyro.mean.x for the given activity and subject
+### mean.tbodygyro.mean.y
+* the mean of measurement tbodygyro.mean.y for the given activity and subject
+### mean.tbodygyro.mean.z
+* the mean of measurement tbodygyro.mean.z for the given activity and subject
+### mean.tbodygyro.std.x
+* the mean of measurement tbodygyro.std.x for the given activity and subject
+### mean.tbodygyro.std.y
+* the mean of measurement tbodygyro.std.y for the given activity and subject
+### mean.tbodygyro.std.z
+* the mean of measurement tbodygyro.std.z for the given activity and subject
+### mean.tbodygyrojerk.mean.x
+* the mean of measurement tbodygyrojerk.mean.x for the given activity and subject
+### mean.tbodygyrojerk.mean.y
+* the mean of measurement tbodygyrojerk.mean.y for the given activity and subject
+### mean.tbodygyrojerk.mean.z
+* the mean of measurement tbodygyrojerk.mean.z for the given activity and subject
+### mean.tbodygyrojerk.std.x
+* the mean of measurement tbodygyrojerk.std.x for the given activity and subject
+### mean.tbodygyrojerk.std.y
+* the mean of measurement tbodygyrojerk.std.y for the given activity and subject
+### mean.tbodygyrojerk.std.z
+* the mean of measurement tbodygyrojerk.std.z for the given activity and subject
+### mean.tbodyaccmag.mean
+* the mean of measurement tbodyaccmag.mean for the given activity and subject
+### mean.tbodyaccmag.std
+* the mean of measurement tbodyaccmag.std for the given activity and subject
+### mean.tgravityaccmag.mean
+* the mean of measurement tgravityaccmag.mean for the given activity and subject
+### mean.tgravityaccmag.std
+* the mean of measurement tgravityaccmag.std for the given activity and subject
+### mean.tbodyaccjerkmag.mean
+* the mean of measurement tbodyaccjerkmag.mean for the given activity and subject
+### mean.tbodyaccjerkmag.std
+* the mean of measurement tbodyaccjerkmag.std for the given activity and subject
+### mean.tbodygyromag.mean
+* the mean of measurement tbodygyromag.mean for the given activity and subject
+### mean.tbodygyromag.std
+* the mean of measurement tbodygyromag.std for the given activity and subject
+### mean.tbodygyrojerkmag.mean
+* the mean of measurement tbodygyrojerkmag.mean for the given activity and subject
+### mean.tbodygyrojerkmag.std
+* the mean of measurement tbodygyrojerkmag.std for the given activity and subject
+### mean.fbodyacc.mean.x
+* the mean of measurement fbodyacc.mean.x for the given activity and subject
+### mean.fbodyacc.mean.y
+* the mean of measurement fbodyacc.mean.y for the given activity and subject
+### mean.fbodyacc.mean.z
+* the mean of measurement fbodyacc.mean.z for the given activity and subject
+### mean.fbodyacc.std.x
+* the mean of measurement fbodyacc.std.x for the given activity and subject
+### mean.fbodyacc.std.y
+* the mean of measurement fbodyacc.std.y for the given activity and subject
+### mean.fbodyacc.std.z
+* the mean of measurement fbodyacc.std.z for the given activity and subject
+### mean.fbodyaccjerk.mean.x
+* the mean of measurement fbodyaccjerk.mean.x for the given activity and subject
+### mean.fbodyaccjerk.mean.y
+* the mean of measurement fbodyaccjerk.mean.y for the given activity and subject
+### mean.fbodyaccjerk.mean.z
+* the mean of measurement fbodyaccjerk.mean.z for the given activity and subject
+### mean.fbodyaccjerk.std.x
+* the mean of measurement fbodyaccjerk.std.x for the given activity and subject
+### mean.fbodyaccjerk.std.y
+* the mean of measurement fbodyaccjerk.std.y for the given activity and subject
+### mean.fbodyaccjerk.std.z
+* the mean of measurement fbodyaccjerk.std.z for the given activity and subject
+### mean.fbodygyro.mean.x
+* the mean of measurement fbodygyro.mean.x for the given activity and subject
+### mean.fbodygyro.mean.y
+* the mean of measurement fbodygyro.mean.y for the given activity and subject
+### mean.fbodygyro.mean.z
+* the mean of measurement fbodygyro.mean.z for the given activity and subject
+### mean.fbodygyro.std.x
+* the mean of measurement fbodygyro.std.x for the given activity and subject
+### mean.fbodygyro.std.y
+* the mean of measurement fbodygyro.std.y for the given activity and subject
+### mean.fbodygyro.std.z
+* the mean of measurement fbodygyro.std.z for the given activity and subject
+### mean.fbodyaccmag.mean
+* the mean of measurement fbodyaccmag.mean for the given activity and subject
+### mean.fbodyaccmag.std
+* the mean of measurement fbodyaccmag.std for the given activity and subject
+### mean.fbodybodyaccjerkmag.mean
+* the mean of measurement fbodybodyaccjerkmag.mean for the given activity and subject
+### mean.fbodybodyaccjerkmag.std
+* the mean of measurement fbodybodyaccjerkmag.std for the given activity and subject
+### mean.fbodybodygyromag.mean
+* the mean of measurement fbodybodygyromag.mean for the given activity and subject
+### mean.fbodybodygyromag.std
+* the mean of measurement fbodybodygyromag.std for the given activity and subject
+### mean.fbodybodygyrojerkmag.mean
+* the mean of measurement fbodybodygyrojerkmag.mean for the given activity and subject
+### mean.fbodybodygyrojerkmag.std 
+* the mean of measurement fbodybodygyrojerkmag.std for the given activity and subject
+
  
 ## Sources
 

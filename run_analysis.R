@@ -69,7 +69,7 @@ clean_measure_names <- function(dirty_names) {
     sub("^(.*)$", "mean.\\1", phase2_names)    
 }
 
-get_partial_dataset <- function(dir) {
+get_partial_dataset <- function(sub_dir, feature_names, activity_labels) {
     xtrain <- get_x(feature_names, sub_dir)
     ytrain <- get_y(activity_labels, sub_dir)
     train_subjects <- get_subjects(sub_dir)
@@ -83,8 +83,8 @@ run_analysis <- function() {
     activity_labels <- get_activity_labels()
     feature_names <- get_feature_names()
     
-    train <- get_partial_dataset("train")
-    test  <- get_partial_dataset("test")    
+    train <- get_partial_dataset("train", feature_names, activity_labels)
+    test  <- get_partial_dataset("test", feature_names, activity_labels)    
     setwd("..") # done with reading the HAR data
     
     # 1: kahuna, as in the big kahuna, contains all of train & test 
